@@ -1,0 +1,44 @@
+{
+  "name": "Portfolio-Website-Template",
+  "homepage": "https://Josh-Beck.github.io/Portfolio-Website-Template",
+  "private": true,
+  "description": "Open Source Portfolio Website Template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build --prefix-paths",
+    "dev": "gatsby develop",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.14",
+    "gatsby": "^5.10.0",
+    "gatsby-plugin-image": "^3.11.0",
+    "gatsby-plugin-manifest": "^5.10.0",
+    "gatsby-plugin-sharp": "^5.11.0",
+    "gatsby-source-filesystem": "^5.10.0",
+    "gatsby-transformer-remark": "^6.10.0",
+    "gh-pages": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Josh-Beck/Portfolio-Website-Template"
+  },
+  "bugs": {
+    "url": "https://github.com/Josh-Beck/Portfolio-Website-Template"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "gatsby-plugin-postcss": "^6.11.0",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
+  }
+}
