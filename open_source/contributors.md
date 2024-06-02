@@ -1,1 +1,0 @@
-* [Joshua Beck](https://josh-beck.github.io)
